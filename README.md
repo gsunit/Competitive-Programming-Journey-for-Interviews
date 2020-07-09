@@ -1,10 +1,9 @@
 <!-- Output copied to clipboard! -->
 
 
-**<h1> Topics and notes from my CP journey </h1>**
+**<h2> Topics, notes & implementations from my CP journey </h2>**
 
 **Common**
-
 
 
 *   Moore’s voting algo
