@@ -65,9 +65,10 @@
 
 **Miscellaneous**
 
-
-
 *   Builtin GCC functions: [https://www.geeksforgeeks.org/builtin-functions-gcc-compiler/](https://www.geeksforgeeks.org/builtin-functions-gcc-compiler/)
+* Convex hull
+
+**Some questions**
 *   Majority element using BST
 *   Majority element using Hashmap
 *   Element in LL w/ freq >= N/3
