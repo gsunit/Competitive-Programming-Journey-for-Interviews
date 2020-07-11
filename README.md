@@ -7,7 +7,7 @@
 
 
 
-*   Intro to coding style in CP: [https://boplets.com/2019/07/10/getting-used-to-contest-style-for-beginners/](https://boplets.com/2019/07/10/getting-used-to-contest-style-for-beginners/)
+*   Intro to coding style in CP: [Getting Used to Contest Style – Boplet AGI](https://boplets.com/2019/07/10/getting-used-to-contest-style-for-beginners/)
 *   
 
 **Common**
@@ -16,9 +16,8 @@
 
 *   Moore’s voting algo
 *   Tortoise and Hare algo
-    *   Floyd cycle detection algo proof: [https://cs.stackexchange.com/a/90990/92327](https://cs.stackexchange.com/a/90990/92327)
-    *   Detect loop in linked list: [https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/](https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/)
-    *   
+    *   [Floyd cycle detection algo proof](https://cs.stackexchange.com/a/90990/92327)
+    *   [Detect loop in a linked list](https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/)
 *   Divide and Conquer
 
 **Bit manipulation**
@@ -43,15 +42,15 @@
 
 
 
-*   Quick Graph construction techniques: [https://boplets.com/2019/07/17/quick-graph-construction/](https://boplets.com/2019/07/17/quick-graph-construction/)
+*   [Quick Graph Construction – Boplet AGI](https://boplets.com/2019/07/17/quick-graph-construction/)
 *   DFS
     *   Detect cycle using DFS
     *   
 *   BFS
     *   Detect cycle using BFS
 *   Floyd-Warshall algo
-    *   [https://www.quora.com/What-is-an-intuitive-explanation-of-the-Floyd-Warshall-algorithm](https://www.quora.com/What-is-an-intuitive-explanation-of-the-Floyd-Warshall-algorithm)
-    *   [https://www.quora.com/Why-is-the-order-of-the-loops-in-Floyd-Warshall-algorithm-important-to-its-correctness](https://www.quora.com/Why-is-the-order-of-the-loops-in-Floyd-Warshall-algorithm-important-to-its-correctness)
+    *   [What is an intuitive explanation of the Floyd-Warshall algorithm?](https://www.quora.com/What-is-an-intuitive-explanation-of-the-Floyd-Warshall-algorithm)
+    *   [Why is the order of the loops in Floyd-Warshall algorithm important to its correctness](https://www.quora.com/Why-is-the-order-of-the-loops-in-Floyd-Warshall-algorithm-important-to-its-correctness)
 *   Kruskal’s algo
     *   Disjoint Set DS
     *   Union Find Algo
@@ -81,7 +80,7 @@
 
 
 
-*   Builtin GCC functions: [https://www.geeksforgeeks.org/builtin-functions-gcc-compiler/](https://www.geeksforgeeks.org/builtin-functions-gcc-compiler/)
+*   [Builtin functions of GCC compiler](https://www.geeksforgeeks.org/builtin-functions-gcc-compiler/)
 *   Majority element using BST
 *   Majority element using Hashmap
 *   Element in LL w/ freq >= N/3
