@@ -1,9 +1,17 @@
 <!-- Output copied to clipboard! -->
 
 
-**<h2> Topics, notes & implementations from my CP journey </h2>**
+**<h1> Topics and notes from my CP journey </h1>**
+
+**Important**
+
+
+
+*   Intro to coding style in CP: [https://boplets.com/2019/07/10/getting-used-to-contest-style-for-beginners/](https://boplets.com/2019/07/10/getting-used-to-contest-style-for-beginners/)
+*   
 
 **Common**
+
 
 
 *   Moore’s voting algo
@@ -35,6 +43,7 @@
 
 
 
+*   Quick Graph construction techniques: [https://boplets.com/2019/07/17/quick-graph-construction/](https://boplets.com/2019/07/17/quick-graph-construction/)
 *   DFS
     *   Detect cycle using DFS
     *   
@@ -50,7 +59,12 @@
     *   UF algo w/ path compression and union by rank
 *   Prim’s algo
 *   Topological sort
-*   Strongly connected components
+    *   Refer CLRS (Ch: Graphs Algorithms -> DFS)
+    *   Suggested: question - [https://codeforces.com/contest/510/problem/C](https://codeforces.com/contest/510/problem/C) solution - [https://codeforces.com/contest/510/submission/62527560](https://codeforces.com/contest/510/submission/62527560)
+*   Strongly connected components (Tarjan’s Algo)
+    *   Refer CLRS (Ch: Graphs Algorithms -> DFS)
+    *   Have a look at the implementation in `scc.cpp`
+    *   Suggested: question - [https://codeforces.com/problemset/problem/427/C](https://codeforces.com/problemset/problem/427/C), solution - [https://codeforces.com/contest/427/submission/80524508](https://codeforces.com/contest/427/submission/80524508)
 *   Bellman Ford’s algo
 *   Djikstra’s algo
 *   Maxim Flow algo
@@ -65,10 +79,9 @@
 
 **Miscellaneous**
 
-*   Builtin GCC functions: [https://www.geeksforgeeks.org/builtin-functions-gcc-compiler/](https://www.geeksforgeeks.org/builtin-functions-gcc-compiler/)
-* Convex hull
 
-**Some questions**
+
+*   Builtin GCC functions: [https://www.geeksforgeeks.org/builtin-functions-gcc-compiler/](https://www.geeksforgeeks.org/builtin-functions-gcc-compiler/)
 *   Majority element using BST
 *   Majority element using Hashmap
 *   Element in LL w/ freq >= N/3
