@@ -1,5 +1,3 @@
-<!-- Output copied to clipboard! -->
-
 
 **<h1> Topics and notes from my CP journey </h1>**
 
@@ -44,6 +42,8 @@
 
 *   [Quick Graph Construction – Boplet AGI](https://boplets.com/2019/07/17/quick-graph-construction/)
 *   DFS
+    *   See DFS implementation in `dfs.cpp`.
+    *   [Iterative DFS implementation](https://www.geeksforgeeks.org/iterative-depth-first-traversal/) comes in handy for many questions where you might not want to use recursion for DFS
     *   Detect cycle using DFS
     *   
 *   BFS
@@ -75,6 +75,10 @@
 
 
 *   Heaps
+*   Segment Trees
+    *   [Codeforces EDU - ITMO Academy - Segment Trees](https://codeforces.com/edu/course/2/lesson/4/1)
+    *   [https://codeforces.com/edu/course/2/lesson/4/1](https://codeforces.com/edu/course/2/lesson/4/1)
+    *   
 
 **Miscellaneous**
 
