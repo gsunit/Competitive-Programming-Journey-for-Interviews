@@ -11,10 +11,7 @@ Common
 - [ ] Divide and Conquer
 
 Bit manipulation
-- [ ] __builtin_popcount(x)
-- [ ] __builtin_parity(x)
-- [ ] __builtin_clz(x)
-- [ ] __builtin_ctz(x)
+- [x] __builtin_popcount(x), __builtin_parity(x), __builtin_clz(x), __builtin_ctz(x)
 - [ ] (n & n-1) : Set first 1 from end to 0
 - [ ] XOR to find num occurring odd no. of times
 
