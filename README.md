@@ -1,25 +1,25 @@
 # Topics and notes from my CP journey
 
-## Important
+### Important
 - [ ] Intro to coding style in CP: [Getting Used to Contest Style – Boplet AGI](https://boplets.com/2019/07/10/getting-used-to-contest-style-for-beginners/)
 
-Common
+### Common
 - [ ] Moore’s voting algo
 - [ ] Tortoise and Hare algo
   - [ ] [Floyd cycle detection algo proof](https://cs.stackexchange.com/a/90990/92327)
   - [ ] [Detect loop in a linked list](https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/)
 - [ ] Divide and Conquer
 
-Bit manipulation
+### Bit manipulation
 - [x] [Builtin functions of GCC compiler](https://www.geeksforgeeks.org/builtin-functions-gcc-compiler/)
 - [ ] (n & n-1) : Set first 1 from end to 0
 - [ ] XOR to find num occurring odd no. of times
 
-DP
+### DP
 - [ ] 0-1 knapsack
 - [ ] Traveling salesman
 
-Graph
+### Graph
 - [ ] [Quick Graph Construction – Boplet AGI](https://boplets.com/2019/07/17/quick-graph-construction/)
 - [ ] DFS
   - [ ] Refer DFS implementation in `dfs-recursive.cpp`, `dfs-iterative.cpp`
@@ -49,7 +49,7 @@ Graph
 - [ ] Ford Fulkerson
 - [ ] Bipartite Graph
 
-Trees
+### Trees
 - [ ] Heaps
 - [ ] Segment Trees
   - [ ] [Codeforces EDU - ITMO Academy - Segment Trees](https://codeforces.com/edu/course/2/lesson/4/1)
@@ -57,7 +57,7 @@ Trees
 
 
 
-Miscellaneous
+### Miscellaneous
 - [ ] Majority element using BST
 - [ ] Majority element using Hashmap
 - [ ] Element in LL w/ freq >= N/3
