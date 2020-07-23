@@ -14,6 +14,10 @@
 - [x] [Builtin functions of GCC compiler](https://www.geeksforgeeks.org/builtin-functions-gcc-compiler/)
 - [ ] (n & n-1) : Set first 1 from end to 0
 - [ ] XOR to find num occurring odd no. of times
+- [ ] [1's and 2's complement](https://www.geeksforgeeks.org/whats-difference-between-1s-complement-and-2s-complement/)
+
+## Hash Table
+- [ ]
 
 ### DP
 - [ ] 0-1 knapsack
@@ -51,7 +55,10 @@
 
 ### Trees
 - [ ] Heaps
-- [ ] Segment Trees
+  - `build_max_heap` runs `max_heapify` from `n/2 downto 1` only
+  - Runtime of `build_max_heap` O(n) instead of O(nlogn) (refer [Heap notes Pg14](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec04.pdf#page=14)). Still `heapsort` takes O(nlogn) time (refer [Heap notes Pg22](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec04.pdf#page=22))
+  - [ ] [Heaps and Heapsort lecture](https://www.youtube.com/watch?v=B7hVxCmfPtM&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=4)
+- [ ] Segment Trees.
   - [ ] [Codeforces EDU - ITMO Academy - Segment Trees](https://codeforces.com/edu/course/2/lesson/4/1)
   - [ ] https://codeforces.com/edu/course/2/lesson/4/1
 
