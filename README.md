@@ -16,8 +16,8 @@
 - [ ] XOR to find num occurring odd no. of times
 - [ ] [1's and 2's complement](https://www.geeksforgeeks.org/whats-difference-between-1s-complement-and-2s-complement/)
 
-## Hash Table
-- [ ]
+### Hash Table
+- [ ] 
 
 ### DP
 - [ ] 0-1 knapsack
@@ -48,7 +48,12 @@
   - [ ] Have a look at the implementation in `scc.cpp`
   - [ ] Suggested: question - https://codeforces.com/problemset/problem/427/C, solution - https://codeforces.com/contest/427/submission/80524508
 - [ ] Bellman Ford’s algo
+  - [ ] [CLRS chapter on SSSS](https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf#page=664) has the best proofs
+  - [ ] [Amazing article on B-F algo](https://cp-algorithms.com/graph/bellman_ford.html), watch out for the gotchas in implementation
 - [ ] Djikstra’s algo
+  - [ ] [CLRS chapter on SSSS](https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf#page=664) has the best proofs
+  - [ ] [Implementation and proof](https://cp-algorithms.com/graph/dijkstra_sparse.html)
+  - [ ] [Video lecture](https://www.youtube.com/watch?v=2E7MmKv0Y24&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=17&t=0s)
 - [ ] Maxim Flow algo
 - [ ] Ford Fulkerson
 - [ ] Bipartite Graph
