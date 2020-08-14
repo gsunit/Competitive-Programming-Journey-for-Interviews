@@ -10,6 +10,10 @@
   - [ ] [Detect loop in a linked list](https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/)
 - [ ] Divide and Conquer
 
+### Math
+- [ ] Binary exponentiation
+  - [ ] [Read this article completely]()
+
 ### Bit manipulation
 - [x] [Builtin functions of GCC compiler](https://www.geeksforgeeks.org/builtin-functions-gcc-compiler/)
 - [ ] (n & n-1) : Set first 1 from end to 0
@@ -73,10 +77,25 @@
 - [ ] Ford Fulkerson
 - [ ] Bipartite Graph
 
+- [ ] Graph elegant solutions
+  - [ ] [Number of paths of length k
+in a graph](https://cp-algorithms.com/algebra/binary-exp.html#toc-tgt-7). Appreciate the brilliance of the solution for unweighted graph. Then try to figure out the solution for weighted graph on your own.
+
 ### Trees
 - [ ] Heaps
-  - `build_max_heap` runs `max_heapify` from `n/2 downto 1` only
-  - Runtime of `build_max_heap` O(n) instead of O(nlogn) (refer [Heap notes Pg14](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec04.pdf#page=14)). Still `heapsort` takes O(nlogn) time (refer [Heap notes Pg22](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec04.pdf#page=22))
+  <details> 
+    <summary>Notes</summary>
+    <ul>
+      <li> `build_max_heap` runs `max_heapify` from `n/2 downto 1` only </li> 
+      <li> Runtime of `build_max_heap` O(n) instead of O(nlogn) (). Still `heapsort` takes O(nlogn) time. See `Reference-1` and `Reference-2` below. </li>
+
+    </ul>
+  </details>
+
+  - [ ] `Reference-1` [Heap notes Pg14](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec04.pdf#page=14)
+
+  - [ ] `Reference-2` [Heap notes Pg22](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec04.pdf#page=22)
+
   - [ ] [Heaps and Heapsort lecture](https://www.youtube.com/watch?v=B7hVxCmfPtM&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=4)
 - [ ] Binary search trees
   - [ ] [BST lecture](https://www.youtube.com/watch?v=9Jry5-82I68&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6&t=0s)
