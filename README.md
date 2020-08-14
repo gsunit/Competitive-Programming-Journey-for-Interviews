@@ -140,12 +140,12 @@
   <summary>Notes</summary>
 
   ```
-  `s`          : source vertex
+  `s`           : source vertex
   `|V|`         : num vertices
   `d[v]`        : current smallest dist of v from s
   `delta(s,v)`  : true shortest dist of v from s
   ```
-  - **Iterations**:In each iteration, we go over all the edges. For each edge `e`, we update 
+  - **Iterations**: In each iteration, we go over all the edges. For each edge `e`, we update 
   ```
   d[e.second] = min (
     d[e.second],
@@ -157,7 +157,7 @@
 
   - **Correctness of algo**: any shortest path to a node v from s can have at most |V|-1 edges in it. Thus, in |V|-1 iterations, we would have d[v] == delta(s,v) for all vertices v.
 
-  - We check for -ve cycles in the |V|th iteration.
+  - **Existence of -ve cycle**: If in |V|th iteration there is still a relaxtion possible (observed), then there definitely exists a -ve cycle
 
   - **To find -ve cycle reachable from s**: During the Vth iteration, the last
 
