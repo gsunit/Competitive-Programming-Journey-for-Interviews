@@ -132,11 +132,18 @@
 
 </details>
 
+<details>
+  <summary>Questions</summary>
+
+  - [Codeforces 427-C](https://codeforces.com/problemset/problem/427/C) & [Solution](https://codeforces.com/contest/427/submission/80524508)
+
+  - 
+
+</details>
+
 - [ ] Refer CLRS (Ch: Graphs Algorithms -> DFS)
 
 - [ ] Have a look at the implementation in `scc.cpp`
-
-- [ ] Codeforces: [Question](https://codeforces.com/problemset/problem/427/C) &  [Solution](https://codeforces.com/contest/427/submission/80524508)
 
 
 #### Bellman Ford's
