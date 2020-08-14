@@ -39,7 +39,16 @@
 - [ ] Floyd-Warshall algo
   - [ ] [What is an intuitive explanation of the Floyd-Warshall algorithm?](https://www.quora.com/What-is-an-intuitive-explanation-of-the-Floyd-Warshall-algorithm)
   - [ ] [Why is the order of the loops in Floyd-Warshall algorithm important to its correctness](https://www.quora.com/Why-is-the-order-of-the-loops-in-Floyd-Warshall-algorithm-important-to-its-correctness)
+  
 - [ ] Kruskal’s algo
+  
+  <details>
+    <summary>Notes</summary>
+
+    - 
+    
+  </details>
+  
   - [ ] Disjoint Set DS
   - [ ] Union Find Algo
   - [ ] Detect Cycle using UF algo
@@ -85,11 +94,10 @@ in a graph](https://cp-algorithms.com/algebra/binary-exp.html#toc-tgt-7). Apprec
 - [ ] Heaps
   <details> 
     <summary>Notes</summary>
-    <ul>
-      <li> `build_max_heap` runs `max_heapify` from `n/2 downto 1` only </li> 
-      <li> Runtime of `build_max_heap` O(n) instead of O(nlogn) (). Still `heapsort` takes O(nlogn) time. See `Reference-1` and `Reference-2` below. </li>
 
-    </ul>
+    - `build_max_heap` runs `max_heapify` from `n/2 downto 1` only
+
+    - Runtime of `build_max_heap` O(n) instead of O(nlogn) (). Still `heapsort` takes O(nlogn) time. See `Reference-1` and `Reference-2` below.
   </details>
 
   - [ ] `Reference-1` [Heap notes Pg14](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec04.pdf#page=14)
