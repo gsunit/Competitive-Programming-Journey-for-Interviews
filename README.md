@@ -5,18 +5,18 @@
 
 ### Common
 
-- [ ] Moore’s voting algo
+- [ ] **Moore’s voting algo**
 
-- [ ] Tortoise and Hare algo
+- [ ] **Tortoise and Hare algo**
 
   - [ ] [Floyd cycle detection algo proof](https://cs.stackexchange.com/a/90990/92327)
 
   - [ ] [Detect loop in a linked list](https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/)
 
-- [ ] Divide and Conquer
+- [ ] **Divide and Conquer**
 
 ### Math
-- [ ] Binary exponentiation
+- [ ] **Binary exponentiation**
   - [ ] [Read this article completely]()
 
 ### Bit manipulation
@@ -35,7 +35,7 @@
 
 ### DP
 
-- [ ] 0-1 knapsack
+- [ ] **0-1 knapsack**
 
 - [ ] Traveling salesman
 
@@ -45,7 +45,7 @@
 
 - [ ] [Quick Graph Construction – Boplet AGI](https://boplets.com/2019/07/17/quick-graph-construction/)
 
-- [ ] DFS
+- [ ] **DFS**
 
   - [ ] Refer DFS implementation in `dfs-recursive.cpp`, `dfs-iterative.cpp`
 
@@ -53,17 +53,17 @@
 
   - [ ] Detect cycle using DFS
 
-- [ ] BFS
+- [ ] **BFS**
 
   - [ ] Detect cycle using BFS
 
-- [ ] Floyd-Warshall algo
+- [ ] **Floyd-Warshall algo**
 
   - [ ] [What is an intuitive explanation of the Floyd-Warshall algorithm?](https://www.quora.com/What-is-an-intuitive-explanation-of-the-Floyd-Warshall-algorithm)
 
   - [ ] [Why is the order of the loops in Floyd-Warshall algorithm important to its correctness](https://www.quora.com/Why-is-the-order-of-the-loops-in-Floyd-Warshall-algorithm-important-to-its-correctness)
   
-- [ ] Kruskal’s algo
+- [ ] **Kruskal’s algo**
   
   <details>
     <summary>Notes</summary>
@@ -76,19 +76,19 @@
 
   - [ ] Union Find Algo
 
-  - [ ] Detect Cycle using UF algo
-
   - [ ] UF algo w/ path compression and union by rank
 
-- [ ] Prim’s algo
+  - [ ] Detect Cycle using UF algo
 
-- [ ] Topological sort
+- [ ] **Prim’s algo**
+
+- [ ] **Topological sort**
 
   - [ ] Refer CLRS (Ch: Graphs Algorithms -> DFS)
 
   - [ ] Suggested: [Question](https://codeforces.com/contest/510/problem/C) & [Solution](https://codeforces.com/contest/510/submission/62527560)
 
-- [ ] Strongly connected components (Tarjan’s Algo)
+- [ ] **Strongly connected components** (Tarjan’s Algo)
 
   <details>
     <summary>Notes</summary>
@@ -106,11 +106,12 @@
   - [ ] Codeforces: [Question](https://codeforces.com/problemset/problem/427/C) &  [Solution](https://codeforces.com/contest/427/submission/80524508)
 
 
-- [ ] Bellman Ford’s algo
+- [ ] **Bellman Ford's**
   - [ ] [CLRS chapter on SSSS](https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf#page=664) has the best proofs
 
   - [ ] [Amazing article on B-F algo](https://cp-algorithms.com/graph/bellman_ford.html), watch out for the gotchas in implementation
-- [ ] Djikstra’s algo
+
+- [ ] **Djikstra’s**
 
   - [ ] [CLRS chapter on SSSS](https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf#page=664) has the best proofs
 
@@ -118,18 +119,19 @@
 
   - [ ] [Video lecture](https://www.youtube.com/watch?v=2E7MmKv0Y24&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=17&t=0s)
 
-- [ ] Maxim Flow algo
+- [ ] **Maxim Flow algo**
 
-- [ ] Ford Fulkerson
+- [ ] **Ford Fulkerson**
 
-- [ ] Bipartite Graph
+- [ ] **Bipartite Graph**
 
-- [ ] Graph elegant solutions
+- [ ] **Graph elegant solutions**
 
   - [ ] [Number of paths of length k
 in a graph](https://cp-algorithms.com/algebra/binary-exp.html#toc-tgt-7). Appreciate the brilliance of the solution for unweighted graph. Then try to figure out the solution for weighted graph on your own.
 
 ### Trees
+
 - [ ] Heaps
   <details> 
     <summary>Notes</summary>
@@ -150,7 +152,7 @@ in a graph](https://cp-algorithms.com/algebra/binary-exp.html#toc-tgt-7). Apprec
   - [ ] [BST lecture](https://www.youtube.com/watch?v=9Jry5-82I68&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6&t=0s)
 
   - [ ] [BST lecture notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec05.pdf) (recommended after watching the lecture video)
-- [ ] Segment trees.
+- [ ] **Segment trees**
   <details>
     <summary>Notes</summary>
     
@@ -165,12 +167,14 @@ in a graph](https://cp-algorithms.com/algebra/binary-exp.html#toc-tgt-7). Apprec
       = O(n) space 
 
     - Time complexity for update is O(logn) since only one of the leaf values changes. Then you just have to change all its ancestors upto the root.
+
+    - `Sum(l,r)` has left borer inclusive and right border exclusive.
     
   </details>
   
   - [ ] [Intro video](https://www.youtube.com/watch?v=Ic7OO3Uw6J0)
 
-  - [ ] [Codeforces EDU - ITMO Academy - Segment Trees](https://codeforces.com/edu/course/2/lesson/4/1) You will need to login to Codeforces first.
+  - [ ] [Codeforces EDU - ITMO Academy - Segment Trees](https://codeforces.com/edu/course/2/lesson/4/1) You will need to login to Codeforces first. Can skip the video and go straight to the article.
 
   - [ ] //TODO: **Advanced topic:** Lazy propagation in segment trees
 
