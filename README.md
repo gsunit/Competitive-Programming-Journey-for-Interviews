@@ -1,9 +1,9 @@
 # Topics and notes from my CP journey
 
-### Important
+## Important
 - [ ] Intro to coding style in CP: [Getting Used to Contest Style – Boplet AGI](https://boplets.com/2019/07/10/getting-used-to-contest-style-for-beginners/)
 
-### Common
+## Common
 
 - [ ] **Moore’s voting algo**
 
@@ -15,7 +15,7 @@
 
 - [ ] **Divide and Conquer**
 
-### Math
+## Math
 
 - [ ] **Binary exponentiation**
 
@@ -43,7 +43,11 @@
 
   - [ ] [Sieve in linear time](https://cp-algorithms.com/algebra/prime-sieve-linear.html) 
 
-### Bit manipulation
+- [ ] **Fermat's little theorem**
+
+  - [ ] 
+
+## Bit manipulation
 
 - [x] [Builtin functions of GCC compiler](https://www.geeksforgeeks.org/builtin-functions-gcc-compiler/)
 
@@ -53,11 +57,11 @@
 
 - [ ] [1's and 2's complement](https://www.geeksforgeeks.org/whats-difference-between-1s-complement-and-2s-complement/)
 
-### Hash Table
+## Hash Table
 
 - [ ] 
 
-### DP
+## DP
 
 - [ ] **0-1 knapsack**
 
@@ -65,7 +69,7 @@
 
 - [ ] [Edit distance](https://www.geeksforgeeks.org/edit-distance-dp-5/)
 
-### Graph
+## Graph
 
 - [ ] [Quick Graph Construction – Boplet AGI](https://boplets.com/2019/07/17/quick-graph-construction/)
 
@@ -131,6 +135,40 @@
 
 
 - [ ] **Bellman Ford's**
+
+  <details>
+    <summary>Notes</summary>
+
+    ```
+    `s`          : source vertex
+    `|V|`         : num vertices
+    `d[v]`        : current smallest dist of v from s
+    `delta(s,v)`  : true shortest dist of v from s
+    ```
+    - **Iterations**:In each iteration, we go over all the edges. For each edge `e`, we update 
+    ```
+    d[e.second] = min (
+      d[e.second],
+      d[e.first] + e.cost
+    );
+    ```
+
+    - **Total |V|-1 iterations**: it is guaranteed that after k iterations, all nodes reachable from S would have d[v] == delta(s,v)
+
+    - **Correctness of algo**: any shortest path to a node v from s can have at most |V|-1 edges in it. Thus, in |V|-1 iterations, we would have d[v] == delta(s,v) for all vertices v.
+
+    - We check for -ve cycles in the |V|th iteration.
+
+    - **To find -ve cycle reachable from s**: During the Vth iteration, the last
+
+    - **Gotchas**: 
+
+      - If there are -ve edges, do not relax those edges yet which end on nodes that haven't even been discovered (aren't reachable in k edges if only k iterations are done). Because those nodes will have `d[v]==INF` and then new value could be `INF-1`, `INF-2`, etc.
+
+      - When -ve cycle are present then d[] values could overflow (going below -INF). Take care of integer overflow.
+    
+  </details>
+
   - [ ] [CLRS chapter on SSSS](https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf#page=664) has the best proofs
 
   - [ ] [Amazing article on B-F algo](https://cp-algorithms.com/graph/bellman_ford.html), watch out for the gotchas in implementation
@@ -154,7 +192,7 @@
   - [ ] [Number of paths of length k
 in a graph](https://cp-algorithms.com/algebra/binary-exp.html#toc-tgt-7). Appreciate the brilliance of the solution for unweighted graph. Then try to figure out the solution for weighted graph on your own.
 
-### Trees
+## Trees
 
 - [ ] Heaps
   <details> 
@@ -176,6 +214,7 @@ in a graph](https://cp-algorithms.com/algebra/binary-exp.html#toc-tgt-7). Apprec
   - [ ] [BST lecture](https://www.youtube.com/watch?v=9Jry5-82I68&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6&t=0s)
 
   - [ ] [BST lecture notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec05.pdf) (recommended after watching the lecture video)
+
 - [ ] **Segment trees**
   <details>
     <summary>Notes</summary>
@@ -204,7 +243,7 @@ in a graph](https://cp-algorithms.com/algebra/binary-exp.html#toc-tgt-7). Apprec
 
 
 
-### Miscellaneous
+## Miscellaneous
 - [ ] Majority element using BST
 
 - [ ] Majority element using Hashmap

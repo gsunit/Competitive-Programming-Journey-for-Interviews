@@ -9,8 +9,11 @@ using namespace std;
 #define NUM 100001
 
 ll n; ll m; ll u; ll v;
+
 vector<ll> g[NUM], g_i[NUM]; // graph and inverse graph
-stack<ll> s; // representative element of each SCC to be stored in stack
+
+stack<ll> s; // nodes entered into stack once they are completely finished (whole depth originating from it has been explored)
+
 ll vis[NUM]; // visited array
 
 void dfs(ll x) {
