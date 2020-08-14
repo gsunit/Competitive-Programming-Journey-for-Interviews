@@ -45,7 +45,6 @@
 
 #### Fermat's little theorem
 
-- [ ] 
 
 ## Bit manipulation
 
