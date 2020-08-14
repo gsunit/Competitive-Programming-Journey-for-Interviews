@@ -91,7 +91,7 @@
 
 - [ ] [Why is the order of the loops in Floyd-Warshall algorithm important to its correctness](https://www.quora.com/Why-is-the-order-of-the-loops-in-Floyd-Warshall-algorithm-important-to-its-correctness)
   
-#### Kruskal’s algo
+#### MST - Kruskal’s algo
   
 <details>
   <summary>Notes</summary>
@@ -108,7 +108,7 @@
 
 - [ ] Detect Cycle using UF algo
 
-#### Prim’s algo
+#### MST - Prim’s algo
 
 #### Topological sort
 
@@ -172,6 +172,8 @@
 - [ ] [CLRS chapter on SSSS](https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf#page=664) has the best proofs
 
 - [ ] [Amazing article on B-F algo](https://cp-algorithms.com/graph/bellman_ford.html), watch out for the gotchas in implementation
+
+- [ ] [Shortest Path Faster Algorithm (SPFA)](https://cp-algorithms.com/graph/bellman_ford.html#toc-tgt-8)
 
 #### Djikstra’s
 
