@@ -91,156 +91,157 @@
 
 - [ ] [Why is the order of the loops in Floyd-Warshall algorithm important to its correctness](https://www.quora.com/Why-is-the-order-of-the-loops-in-Floyd-Warshall-algorithm-important-to-its-correctness)
   
-- [ ] **Kruskal’s algo**
+#### Kruskal’s algo
   
-  <details>
-    <summary>Notes</summary>
+<details>
+  <summary>Notes</summary>
 
-    - 
-    
-  </details>
+  - 
   
-  - [ ] Disjoint Set DS
+</details>
 
-  - [ ] Union Find Algo
+- [ ] Disjoint Set DS
 
-  - [ ] UF algo w/ path compression and union by rank
+- [ ] Union Find Algo
 
-  - [ ] Detect Cycle using UF algo
+- [ ] UF algo w/ path compression and union by rank
 
-- [ ] **Prim’s algo**
+- [ ] Detect Cycle using UF algo
 
-- [ ] **Topological sort**
+#### Prim’s algo
 
-  - [ ] Refer CLRS (Ch: Graphs Algorithms -> DFS)
+#### Topological sort
 
-  - [ ] Suggested: [Question](https://codeforces.com/contest/510/problem/C) & [Solution](https://codeforces.com/contest/510/submission/62527560)
+- [ ] Refer CLRS (Ch: Graphs Algorithms -> DFS)
 
-- [ ] **Strongly connected components** (Tarjan’s Algo)
+- [ ] Suggested: [Question](https://codeforces.com/contest/510/problem/C) & [Solution](https://codeforces.com/contest/510/submission/62527560)
 
-  <details>
-    <summary>Notes</summary>
+#### Strongly connected components (Tarjan’s Algo)
 
-    - If a node has even a single outgoing edge, then it cannot be the one finshing last during DFS
+<details>
+  <summary>Notes</summary>
 
-    - Equivalently, if a node has only incoming edges and you reverse all the edges, then it will be the first one to finish.
+  - If a node has even a single outgoing edge, then it cannot be the one finshing last during DFS
+
+  - Equivalently, if a node has only incoming edges and you reverse all the edges, then it will be the first one to finish.
+
+</details>
+
+- [ ] Refer CLRS (Ch: Graphs Algorithms -> DFS)
+
+- [ ] Have a look at the implementation in `scc.cpp`
+
+- [ ] Codeforces: [Question](https://codeforces.com/problemset/problem/427/C) &  [Solution](https://codeforces.com/contest/427/submission/80524508)
+
+
+#### Bellman Ford's
+
+<details>
+  <summary>Notes</summary>
+
+  ```
+  `s`          : source vertex
+  `|V|`         : num vertices
+  `d[v]`        : current smallest dist of v from s
+  `delta(s,v)`  : true shortest dist of v from s
+  ```
+  - **Iterations**:In each iteration, we go over all the edges. For each edge `e`, we update 
+  ```
+  d[e.second] = min (
+    d[e.second],
+    d[e.first] + e.cost
+  );
+  ```
+
+  - **Total |V|-1 iterations**: it is guaranteed that after k iterations, all nodes reachable from S would have d[v] == delta(s,v)
+
+  - **Correctness of algo**: any shortest path to a node v from s can have at most |V|-1 edges in it. Thus, in |V|-1 iterations, we would have d[v] == delta(s,v) for all vertices v.
+
+  - We check for -ve cycles in the |V|th iteration.
+
+  - **To find -ve cycle reachable from s**: During the Vth iteration, the last
+
+  - **Gotchas**: 
+
+    - If there are -ve edges, do not relax those edges yet which end on nodes that haven't even been discovered (aren't reachable in k edges if only k iterations are done). Because those nodes will have `d[v]==INF` and then new value could be `INF-1`, `INF-2`, etc.
+
+    - When -ve cycle are present then d[] values could overflow (going below -INF). Take care of integer overflow.
   
-  </details>
+</details>
 
-  - [ ] Refer CLRS (Ch: Graphs Algorithms -> DFS)
+- [ ] [CLRS chapter on SSSS](https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf#page=664) has the best proofs
 
-  - [ ] Have a look at the implementation in `scc.cpp`
+- [ ] [Amazing article on B-F algo](https://cp-algorithms.com/graph/bellman_ford.html), watch out for the gotchas in implementation
 
-  - [ ] Codeforces: [Question](https://codeforces.com/problemset/problem/427/C) &  [Solution](https://codeforces.com/contest/427/submission/80524508)
+#### Djikstra’s
 
+- [ ] [CLRS chapter on SSSS](https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf#page=664) has the best proofs
 
-- [ ] **Bellman Ford's**
+- [ ] [Implementation and proof](https://cp-algorithms.com/graph/dijkstra_sparse.html)
 
-  <details>
-    <summary>Notes</summary>
+- [ ] [Video lecture](https://www.youtube.com/watch?v=2E7MmKv0Y24&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=17&t=0s)
 
-    ```
-    `s`          : source vertex
-    `|V|`         : num vertices
-    `d[v]`        : current smallest dist of v from s
-    `delta(s,v)`  : true shortest dist of v from s
-    ```
-    - **Iterations**:In each iteration, we go over all the edges. For each edge `e`, we update 
-    ```
-    d[e.second] = min (
-      d[e.second],
-      d[e.first] + e.cost
-    );
-    ```
+#### Maxim Flow algo
 
-    - **Total |V|-1 iterations**: it is guaranteed that after k iterations, all nodes reachable from S would have d[v] == delta(s,v)
+#### Ford Fulkerson
 
-    - **Correctness of algo**: any shortest path to a node v from s can have at most |V|-1 edges in it. Thus, in |V|-1 iterations, we would have d[v] == delta(s,v) for all vertices v.
+#### Bipartite Graph
 
-    - We check for -ve cycles in the |V|th iteration.
+#### Graph elegant solutions
 
-    - **To find -ve cycle reachable from s**: During the Vth iteration, the last
-
-    - **Gotchas**: 
-
-      - If there are -ve edges, do not relax those edges yet which end on nodes that haven't even been discovered (aren't reachable in k edges if only k iterations are done). Because those nodes will have `d[v]==INF` and then new value could be `INF-1`, `INF-2`, etc.
-
-      - When -ve cycle are present then d[] values could overflow (going below -INF). Take care of integer overflow.
-    
-  </details>
-
-  - [ ] [CLRS chapter on SSSS](https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf#page=664) has the best proofs
-
-  - [ ] [Amazing article on B-F algo](https://cp-algorithms.com/graph/bellman_ford.html), watch out for the gotchas in implementation
-
-- [ ] **Djikstra’s**
-
-  - [ ] [CLRS chapter on SSSS](https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf#page=664) has the best proofs
-
-  - [ ] [Implementation and proof](https://cp-algorithms.com/graph/dijkstra_sparse.html)
-
-  - [ ] [Video lecture](https://www.youtube.com/watch?v=2E7MmKv0Y24&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=17&t=0s)
-
-- [ ] **Maxim Flow algo**
-
-- [ ] **Ford Fulkerson**
-
-- [ ] **Bipartite Graph**
-
-- [ ] **Graph elegant solutions**
-
-  - [ ] [Number of paths of length k
+- [ ] [Number of paths of length k
 in a graph](https://cp-algorithms.com/algebra/binary-exp.html#toc-tgt-7). Appreciate the brilliance of the solution for unweighted graph. Then try to figure out the solution for weighted graph on your own.
 
 ## Trees
 
-- [ ] Heaps
-  <details> 
-    <summary>Notes</summary>
+#### Heaps
 
-    - `build_max_heap` runs `max_heapify` from `n/2 downto 1` only
+<details> 
+  <summary>Notes</summary>
 
-    - Runtime of `build_max_heap` O(n) instead of O(nlogn) (). Still `heapsort` takes O(nlogn) time. See `Reference-1` and `Reference-2` below.
-  </details>
+  - `build_max_heap` runs `max_heapify` from `n/2 downto 1` only
 
-  - [ ] `Reference-1` [Heap notes Pg14](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec04.pdf#page=14)
+  - Runtime of `build_max_heap` O(n) instead of O(nlogn) (). Still `heapsort` takes O(nlogn) time. See `Reference-1` and `Reference-2` below.
+</details>
 
-  - [ ] `Reference-2` [Heap notes Pg22](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec04.pdf#page=22)
+- [ ] `Reference-1` [Heap notes Pg14](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec04.pdf#page=14)
 
-  - [ ] [Heaps and Heapsort lecture](https://www.youtube.com/watch?v=B7hVxCmfPtM&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=4)
+- [ ] `Reference-2` [Heap notes Pg22](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec04.pdf#page=22)
 
-- [ ] Binary search trees
+- [ ] [Heaps and Heapsort lecture](https://www.youtube.com/watch?v=B7hVxCmfPtM&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=4)
 
-  - [ ] [BST lecture](https://www.youtube.com/watch?v=9Jry5-82I68&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6&t=0s)
+#### Binary search trees
 
-  - [ ] [BST lecture notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec05.pdf) (recommended after watching the lecture video)
+- [ ] [BST lecture](https://www.youtube.com/watch?v=9Jry5-82I68&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6&t=0s)
 
-- [ ] **Segment trees**
-  <details>
-    <summary>Notes</summary>
-    
-    - Used to find sum of range of indices in an array in O(logn) time. Brute force would take O(n) time for computing sum, O(1) time for value update
+- [ ] [BST lecture notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec05.pdf) (recommended after watching the lecture video)
 
-    - Leaf nodes are the array itself. Subsequent upper layer contain nodes which simply represent the sum of their own sub-tree.
+#### Segment trees
 
-    - Total no. of nodes in tree = n + n/2 + ... + 1 
-
-      = (2^(logn +1) - 1)/(2-1) = 2n -1 
-
-      = O(n) space 
-
-    - Time complexity for update is O(logn) since only one of the leaf values changes. Then you just have to change all its ancestors upto the root.
-
-    - `Sum(l,r)` has left borer inclusive and right border exclusive.
-    
-  </details>
+<details>
+  <summary>Notes</summary>
   
-  - [ ] [Intro video](https://www.youtube.com/watch?v=Ic7OO3Uw6J0)
+  - Used to find sum of range of indices in an array in O(logn) time. Brute force would take O(n) time for computing sum, O(1) time for value update
 
-  - [ ] [Codeforces EDU - ITMO Academy - Segment Trees](https://codeforces.com/edu/course/2/lesson/4/1) You will need to login to Codeforces first. Can skip the video and go straight to the article.
+  - Leaf nodes are the array itself. Subsequent upper layer contain nodes which simply represent the sum of their own sub-tree.
 
-  - [ ] //TODO: **Advanced topic:** Lazy propagation in segment trees
+  - Total no. of nodes in tree = n + n/2 + ... + 1 
 
+    = (2^(logn +1) - 1)/(2-1) = 2n -1 
+
+    = O(n) space 
+
+  - Time complexity for update is O(logn) since only one of the leaf values changes. Then you just have to change all its ancestors upto the root.
+
+  - `Sum(l,r)` has left borer inclusive and right border exclusive.
+  
+</details>
+
+- [ ] [Intro video](https://www.youtube.com/watch?v=Ic7OO3Uw6J0)
+
+- [ ] [Codeforces EDU - ITMO Academy - Segment Trees](https://codeforces.com/edu/course/2/lesson/4/1) You will need to login to Codeforces first. Can skip the video and go straight to the article.
+
+- [ ] //TODO: **Advanced topic:** Lazy propagation in segment trees
 
 
 ## Miscellaneous
