@@ -1,3 +1,5 @@
+// code taken from https://cp-algorithms.com/graph/bellman_ford.html#toc-tgt-8
+
 #include <bits/stdc++.h>
 using namespace std;
 
