@@ -109,8 +109,27 @@ in a graph](https://cp-algorithms.com/algebra/binary-exp.html#toc-tgt-7). Apprec
   - [ ] [BST lecture](https://www.youtube.com/watch?v=9Jry5-82I68&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6&t=0s)
   - [ ] [BST lecture notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec05.pdf) (recommended after watching the lecture video)
 - [ ] Segment trees.
+  <details>
+    <summary>Notes</summary>
+    
+    - Used to find sum of range of indices in an array in O(logn) time. Brute force would take O(n) time for computing sum, O(1) time for value update
+
+    - Leaf nodes are the array itself. Subsequent upper layer contain nodes which simply represent the sum of their own sub-tree.
+
+    - Total no. of nodes in tree = n + n/2 + ... + 1 
+
+      = (2^(logn +1) - 1)/(2-1) = 2^n -1 
+
+      = O(n) space 
+
+    - Time complexity for update is O(logn) since only one of the leaf values changes. Then you just have to change all its ancestors upto the root.
+    
+  </details>
+  
+  - [ ] [Intro video](https://www.youtube.com/watch?v=Ic7OO3Uw6J0)
   - [ ] [Codeforces EDU - ITMO Academy - Segment Trees](https://codeforces.com/edu/course/2/lesson/4/1)
   - [ ] https://codeforces.com/edu/course/2/lesson/4/1
+  - [ ] //TODO: **Advanced topic:** Lazy propagation in segment trees
 
 
 
