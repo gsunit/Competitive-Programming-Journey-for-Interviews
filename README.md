@@ -5,47 +5,47 @@
 
 ## Common
 
-- [ ] **Moore’s voting algo**
+#### Moore’s voting algo
 
-- [ ] **Tortoise and Hare algo**
+#### Tortoise and Hare algo
 
-  - [ ] [Floyd cycle detection algo proof](https://cs.stackexchange.com/a/90990/92327)
+- [ ] [Floyd cycle detection algo proof](https://cs.stackexchange.com/a/90990/92327)
 
-  - [ ] [Detect loop in a linked list](https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/)
+- [ ] [Detect loop in a linked list](https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/)
 
-- [ ] **Divide and Conquer**
+#### Divide and Conquer
 
 ## Math
 
-- [ ] **Binary exponentiation**
+#### Binary exponentiation
 
-  - [ ] [Read this article completely]()
+- [ ] [Read this article completely]()
 
-- [ ] **Sieve of Eratosthenes**
+#### Sieve of Eratosthenes
 
-  <details>
-    <summary>Notes</summary>
-    
-    - Algorithm for finding all the prime numbers in a segment [1:n] using O(nloglogn)
-
-    - [Prime number theorem](https://primes.utm.edu/howmany.html#pnt): no. of primes less than n is approximately equal to `n/ln(n)`.
-
-    - Let there be `k` primes less than `n`. Thus the `k ~= n/ln(n)`. Also, the kth prime no. is closest to `n`. Thus 
-    ```
-    k*ln(k) = {n/ln(n)}*{ln(n) - ln(ln(n))}
-            ~= n
-            ~= value of kth prime
-    ```
-    
-  </details>
+<details>
+  <summary>Notes</summary>
   
-  - [ ] [Basics along with various optimizations](https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html)
+  - Algorithm for finding all the prime numbers in a segment [1:n] using O(nloglogn)
 
-  - [ ] [Sieve in linear time](https://cp-algorithms.com/algebra/prime-sieve-linear.html) 
+  - [Prime number theorem](https://primes.utm.edu/howmany.html#pnt): no. of primes less than n is approximately equal to `n/ln(n)`.
 
-- [ ] **Fermat's little theorem**
+  - Let there be `k` primes less than `n`. Thus the `k ~= n/ln(n)`. Also, the kth prime no. is closest to `n`. Thus 
+  ```
+  k*ln(k) = {n/ln(n)}*{ln(n) - ln(ln(n))}
+          ~= n
+          ~= value of kth prime
+  ```
+  
+</details>
 
-  - [ ] 
+- [ ] [Basics along with various optimizations](https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html)
+
+- [ ] [Sieve in linear time](https://cp-algorithms.com/algebra/prime-sieve-linear.html) 
+
+#### Fermat's little theorem
+
+- [ ] 
 
 ## Bit manipulation
 
@@ -63,7 +63,7 @@
 
 ## DP
 
-- [ ] **0-1 knapsack**
+- [ ] 0-1 knapsack
 
 - [ ] Traveling salesman
 
@@ -73,23 +73,23 @@
 
 - [ ] [Quick Graph Construction – Boplet AGI](https://boplets.com/2019/07/17/quick-graph-construction/)
 
-- [ ] **DFS**
+#### DFS
 
-  - [ ] Refer DFS implementation in `dfs-recursive.cpp`, `dfs-iterative.cpp`
+- [ ] Refer DFS implementation in `dfs-recursive.cpp`, `dfs-iterative.cpp`
 
-  - [ ] [Iterative DFS implementation](https://www.geeksforgeeks.org/iterative-depth-first-traversal/) comes in handy for many questions where you might not want to use recursion for DFS
+- [ ] [Iterative DFS implementation](https://www.geeksforgeeks.org/iterative-depth-first-traversal/) comes in handy for many questions where you might not want to use recursion for DFS
 
-  - [ ] Detect cycle using DFS
+- [ ] Detect cycle using DFS
 
-- [ ] **BFS**
+#### BFS
 
-  - [ ] Detect cycle using BFS
+- [ ] Detect cycle using BFS
 
-- [ ] **Floyd-Warshall algo**
+#### Floyd-Warshall algo
 
-  - [ ] [What is an intuitive explanation of the Floyd-Warshall algorithm?](https://www.quora.com/What-is-an-intuitive-explanation-of-the-Floyd-Warshall-algorithm)
+- [ ] [What is an intuitive explanation of the Floyd-Warshall algorithm?](https://www.quora.com/What-is-an-intuitive-explanation-of-the-Floyd-Warshall-algorithm)
 
-  - [ ] [Why is the order of the loops in Floyd-Warshall algorithm important to its correctness](https://www.quora.com/Why-is-the-order-of-the-loops-in-Floyd-Warshall-algorithm-important-to-its-correctness)
+- [ ] [Why is the order of the loops in Floyd-Warshall algorithm important to its correctness](https://www.quora.com/Why-is-the-order-of-the-loops-in-Floyd-Warshall-algorithm-important-to-its-correctness)
   
 - [ ] **Kruskal’s algo**
   
