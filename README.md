@@ -16,8 +16,32 @@
 - [ ] **Divide and Conquer**
 
 ### Math
+
 - [ ] **Binary exponentiation**
+
   - [ ] [Read this article completely]()
+
+- [ ] **Sieve of Eratosthenes**
+
+  <details>
+    <summary>Notes</summary>
+    
+    - Algorithm for finding all the prime numbers in a segment [1:n] using O(nloglogn)
+
+    - [Prime number theorem](https://primes.utm.edu/howmany.html#pnt): no. of primes less than n is approximately equal to `n/ln(n)`.
+
+    - Let there be `k` primes less than `n`. Thus the `k ~= n/ln(n)`. Also, the kth prime no. is closest to `n`. Thus 
+    ```
+    k*ln(k) = {n/ln(n)}*{ln(n) - ln(ln(n))}
+            ~= n
+            ~= value of kth prime
+    ```
+    
+  </details>
+  
+  - [ ] [Basics along with various optimizations](https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html)
+
+  - [ ] [Sieve in linear time](https://cp-algorithms.com/algebra/prime-sieve-linear.html) 
 
 ### Bit manipulation
 
