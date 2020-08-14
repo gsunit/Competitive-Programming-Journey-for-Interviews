@@ -158,7 +158,9 @@
 
   - **Existence of -ve cycle**: If in |V|th iteration there is still a relaxtion possible (observed), then there definitely exists a -ve cycle
 
-  - **To find -ve cycle reachable from s**: During the Vth iteration, the last
+  - **To find -ve cycle reachable from s**: During the Vth iteration, let `x` be the last vertex for which a relaxation was made. `x` either lies on the cycle or is reachable from it. Then follow `x`'s ancestors till you reach the -ve cycle. Going back |V| time from `x` will ensure that you are definitely in the -ve cycle. Then we can trace the cycle.
+
+  - **To find any -ve cycle**: Initialize all d[v] to 0 (instead of 0), as if we were trying to find shortest path from all vertices simoltaneously. The validity of -ve cycle detection remains the same.
 
   - **Gotchas**: 
 
@@ -172,7 +174,7 @@
 
 - [ ] [Amazing article on B-F algo](https://cp-algorithms.com/graph/bellman_ford.html), watch out for the gotchas in implementation
 
-- [ ] [Shortest Path Faster Algorithm (SPFA)](https://cp-algorithms.com/graph/bellman_ford.html#toc-tgt-8)
+- [ ] [Shortest Path Faster Algorithm (SPFA)](https://cp-algorithms.com/graph/bellman_ford.html#toc-tgt-8). Also refer to [`graphs/spfa.cpp`](https://github.com/gsunit/Competitive-Programming-Journey-for-Interviews/tree/master/graph/spfa.cpp).
 
 #### Djikstra’s
 
