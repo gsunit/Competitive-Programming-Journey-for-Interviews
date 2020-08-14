@@ -111,9 +111,15 @@
 
 #### Topological sort
 
-- [ ] Refer CLRS (Ch: Graphs Algorithms -> DFS)
+<details>
+  <summary>Questions</summary>
 
-- [ ] Suggested: [Question](https://codeforces.com/contest/510/problem/C) & [Solution](https://codeforces.com/contest/510/submission/62527560)
+  - [Codeforces 510-C](https://codeforces.com/contest/510/problem/C) & [Solution](https://codeforces.com/contest/510/submission/62527560)
+  
+</details>
+
+
+- [ ] Refer CLRS (Ch: Graphs Algorithms -> DFS)
 
 #### Strongly connected components (Tarjan’s Algo)
 
