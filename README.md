@@ -44,10 +44,24 @@
 - [ ] Topological sort
   - [ ] Refer CLRS (Ch: Graphs Algorithms -> DFS)
   - [ ] Suggested: question - https://codeforces.com/contest/510/problem/C solution - https://codeforces.com/contest/510/submission/62527560
+
+
 - [ ] Strongly connected components (Tarjan’s Algo)
+
+  <details>
+    <summary>Notes</summary>
+    <ul>
+      <li> If a node has even a single outgoing edge, then it cannot be the one finshing last during DFS. </li>
+      <li> Equivalently, if a node has only incoming edges and you reverse all the edges, then it will be the first one to finish.  </li>
+    </ul> 
+  
+  </details>
+
   - [ ] Refer CLRS (Ch: Graphs Algorithms -> DFS)
   - [ ] Have a look at the implementation in `scc.cpp`
   - [ ] Suggested: question - https://codeforces.com/problemset/problem/427/C, solution - https://codeforces.com/contest/427/submission/80524508
+
+
 - [ ] Bellman Ford’s algo
   - [ ] [CLRS chapter on SSSS](https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf#page=664) has the best proofs
   - [ ] [Amazing article on B-F algo](https://cp-algorithms.com/graph/bellman_ford.html), watch out for the gotchas in implementation
