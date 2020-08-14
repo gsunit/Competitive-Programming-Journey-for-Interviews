@@ -170,9 +170,7 @@ in a graph](https://cp-algorithms.com/algebra/binary-exp.html#toc-tgt-7). Apprec
   
   - [ ] [Intro video](https://www.youtube.com/watch?v=Ic7OO3Uw6J0)
 
-  - [ ] [Codeforces EDU - ITMO Academy - Segment Trees](https://codeforces.com/edu/course/2/lesson/4/1)
-
-  - [ ] https://codeforces.com/edu/course/2/lesson/4/1
+  - [ ] [Codeforces EDU - ITMO Academy - Segment Trees](https://codeforces.com/edu/course/2/lesson/4/1) You will need to login to Codeforces first.
 
   - [ ] //TODO: **Advanced topic:** Lazy propagation in segment trees
 
