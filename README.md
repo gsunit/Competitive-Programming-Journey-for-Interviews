@@ -180,6 +180,16 @@
     - If there are -ve edges, do not relax those edges yet which end on nodes that haven't even been discovered (aren't reachable in k edges if only k iterations are done). Because those nodes will have `d[v]==INF` and then new value could be `INF-1`, `INF-2`, etc.
 
     - When -ve cycle are present then d[] values could overflow (going below -INF). Take care of integer overflow.
+
+  - **Shorter path faster algorithm (SPFA)**
+  
+    - takes advantage of the fact that not all attempts at relaxation will work. The main idea is to create a queue containing only the vertices that were relaxed but that still could further relax their neighbors. And whenever you can relax some neighbor, you should put it in the queue.
+
+    - This too can be used to find -ve cycle.
+
+    - Keep count of no. of relaxations for each node. If count[v] > |V|, then -ve cycle exists.
+
+    - Keep track of all nodes in queue using a boolean array. Add to queue only if not already present.
   
 </details>
 
