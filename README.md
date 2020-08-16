@@ -15,6 +15,39 @@
 
 #### Divide and Conquer
 
+## Strings
+
+#### Palindromes
+
+ - [ ] [Manacher's Algorithm]()
+
+#### Knuth-Morris-Pratt (KMP)
+
+<details>
+  <summary>Notes</summary>
+  
+   - 
+  
+</details>
+
+<details>
+  <summary>Questions</summary>
+  
+   - [Codeforces]() & [Solution]()
+  
+</details>
+
+
+
+ - [ ] [One of the best explanations I could find](https://www.youtube.com/watch?v=V5-7GzOfADQ) 
+
+#### Rabin-Karp
+
+ - [ ]
+
+#### Z algorithm
+
+
 ## Math
 
 #### Binary exponentiation
@@ -31,17 +64,22 @@
   - [Prime number theorem](https://primes.utm.edu/howmany.html#pnt): no. of primes less than n is approximately equal to `n/ln(n)`.
 
   - Let there be `k` primes less than `n`. Thus the `k ~= n/ln(n)`. Also, the kth prime no. is closest to `n`. Thus 
+
   ```
   k*ln(k) = {n/ln(n)}*{ln(n) - ln(ln(n))}
           ~= n
           ~= value of kth prime
+
+          //TODO:
   ```
-  
-</details>
+    
+  </details>
 
-- [ ] [Basics along with various optimizations](https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html)
 
-- [ ] [Sieve in linear time](https://cp-algorithms.com/algebra/prime-sieve-linear.html) 
+ - [ ] [Algorithm and optimizations](https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html)
+
+ - [ ] [Sieve in linear time](https://cp-algorithms.com/algebra/prime-sieve-linear.html)
+ 
 
 #### Fermat's little theorem
 
@@ -68,6 +106,8 @@
 
 - [ ] [Edit distance](https://www.geeksforgeeks.org/edit-distance-dp-5/)
 
+
+
 ## Graph
 
 - [ ] [Quick Graph Construction – Boplet AGI](https://boplets.com/2019/07/17/quick-graph-construction/)
@@ -86,10 +126,32 @@
 
 #### Floyd-Warshall algo
 
+<details>
+  <summary>Notes</summary>
+  
+  - Find the length of the shortest path dij between each pair of vertices i and j
+
+  - -ve edges allowed, but not -ve cycles
+
+  - Although, can be used to detect -ve cycles: if the dist of a vertex v from itself is negative.
+
+  - Before the kth iteration, the d[i][j] contains the shortest distance between nodes i & j using only the nodes {1,2,...,k-1} in between i & j.
+
+  - Proof by induction:
+
+    - For k=0, `d[i][j] == wt[i][j]` if there exists and edge between i and j. Otherwise, `d[i][j] == INF`
+
+    - Let the above claim be true for k. So for (k+1)th iteration there can only be two cases
+      1) path between  //TODO:
+  
+</details>
+
+
 - [ ] [What is an intuitive explanation of the Floyd-Warshall algorithm?](https://www.quora.com/What-is-an-intuitive-explanation-of-the-Floyd-Warshall-algorithm)
 
 - [ ] [Why is the order of the loops in Floyd-Warshall algorithm important to its correctness](https://www.quora.com/Why-is-the-order-of-the-loops-in-Floyd-Warshall-algorithm-important-to-its-correctness)
   
+- [ ] [Floyd-Warshall article](https://cp-algorithms.com/graph/all-pair-shortest-path-floyd-warshall.html)
 #### MST - Kruskal’s algo
   
 <details>
@@ -173,7 +235,7 @@
 
   - **To find -ve cycle reachable from s**: During the Vth iteration, let `x` be the last vertex for which a relaxation was made. `x` either lies on the cycle or is reachable from it. Then follow `x`'s ancestors till you reach the -ve cycle. Going back |V| time from `x` will ensure that you are definitely in the -ve cycle. Then we can trace the cycle.
 
-  - **To find any -ve cycle**: Initialize all d[v] to 0 (instead of 0), as if we were trying to find shortest path from all vertices simoltaneously. The validity of -ve cycle detection remains the same.
+  - **To find any -ve cycle**: Initialize all d[v] to 0 (instead of INF), as if we were trying to find shortest path from all vertices simoltaneously. The validity of -ve cycle detection remains the same.
 
   - **Gotchas**: 
 
@@ -190,6 +252,8 @@
     - Keep count of no. of relaxations for each node. If count[v] > |V|, then -ve cycle exists.
 
     - Keep track of all nodes in queue using a boolean array. Add to queue only if not already present.
+
+    - Note: relaxation happens without caring about which nodes are in the queue. The only purpose of queue is to record all nodes that have been relaxed. A node in queue might even be relaxed twice before actually being processed.
   
 </details>
 
@@ -212,6 +276,10 @@
 #### Ford Fulkerson
 
 #### Bipartite Graph
+
+#### Finding negative cycles
+
+ - [ ] [Using Bellman-Ford & using Floyd-Warshall](https://cp-algorithms.com/graph/finding-negative-cycle-in-graph.html)
 
 #### Graph elegant solutions
 
