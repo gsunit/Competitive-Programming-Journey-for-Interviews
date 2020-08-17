@@ -17,33 +17,40 @@
 
 ## Strings
 
-#### Palindromes
-
- - [ ] [Manacher's Algorithm]()
-
-#### Knuth-Morris-Pratt (KMP)
+#### Manacher's Algorithm
 
 <details>
   <summary>Notes</summary>
   
+   - Finding all sub-palindromes in O(N)
+
    - 
   
 </details>
 
+
+//TODO: find better video
+
+ - [ ] [Video explanation](https://www.youtube.com/watch?v=YVZttWzvyw8): Algorithm is not straigtforward, better to familiarize yourself first 
+
+ - [ ] [Article](https://cp-algorithms.com/string/manacher.html): Contributed as a [PR](https://github.com/e-maxx-eng/e-maxx-eng/pull/598) in this article, what I would have written in my notes.
+
+#### 
+
 <details>
-  <summary>Questions</summary>
+  <summary>Notes</summary>
   
-   - [Codeforces]() & [Solution]()
+   - //TODO:
   
 </details>
 
+ - [ ] [Video explanation](): 
 
+#### Pattern matching
 
- - [ ] [One of the best explanations I could find](https://www.youtube.com/watch?v=V5-7GzOfADQ) 
+ - [ ] [Rabin-Karp](https://www.youtube.com/watch?v=qQ8vS2btsxI)
 
-#### Rabin-Karp
-
- - [ ]
+ - [ ] [Knuth-Morris-Pratt (KMP)](https://www.youtube.com/watch?v=V5-7GzOfADQ): One of the best video explanations I could find
 
 #### Z algorithm
 
@@ -79,6 +86,8 @@
  - [ ] [Algorithm and optimizations](https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html)
 
  - [ ] [Sieve in linear time](https://cp-algorithms.com/algebra/prime-sieve-linear.html)
+
+ - [ ] [Segemented Sieve](https://www.youtube.com/watch?v=fByR5N-TseY): Quite imp from interview perspective. This video is part English and part Hindi, though a good one.
  
 
 #### Fermat's little theorem
@@ -102,9 +111,11 @@
 
 - [ ] 0-1 knapsack
 
-- [ ] Traveling salesman
+- [ ] [Traveling salesman](https://www.geeksforgeeks.org/travelling-salesman-problem-set-1/)
 
-- [ ] [Edit distance](https://www.geeksforgeeks.org/edit-distance-dp-5/)
+- [ ] [Edit distance (Levenshtein)](https://www.geeksforgeeks.org/edit-distance-dp-5/)
+
+- [ ] [Damerau-Levenshtein distance](https://stackoverflow.com/questions/10727174/damerau-levenshtein-distance-edit-distance-with-transposition-c-implementation) Just an addition of a `transpose` function to Levenshtein distance. Think on your own first, then refer
 
 
 
