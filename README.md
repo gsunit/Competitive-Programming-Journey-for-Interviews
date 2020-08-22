@@ -124,10 +124,12 @@
 <details>
   <summary>Questions</summary>
   
-   - [Longest common subsequence](https://www.interviewbit.com/problems/longest-common-subsequence/) & [Solution](https://github.com/gsunit/Competitive-Programming-Journey-for-Interviews/blob/master/dp/longest-common-subsequence.cpp)
+| ☆   | Problem | Solution |
+|-----|---------|----------|
+| ★☆☆ | [Longest Common Subsequence](https://www.interviewbit.com/problems/longest-common-subsequence/) | [Link](https://github.com/gsunit/Competitive-Programming-Journey-for-Interviews/blob/master/dp/longest-common-subsequence.cpp) |
+| ★★☆ | [Longest Palindromic Subsequence](https://www.interviewbit.com/problems/longest-palindromic-subsequence/) | [Link](https://github.com/gsunit/Competitive-Programming-Journey-for-Interviews/blob/master/dp/longest-palindromic-subsequence.cpp) |
   
 </details>
-
 
 - [ ] 0-1 knapsack
 
