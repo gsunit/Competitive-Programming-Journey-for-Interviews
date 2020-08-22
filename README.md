@@ -15,6 +15,18 @@
 
 #### Divide and Conquer
 
+## Sorting
+
+#### Linear time sorting
+
+ - [ ] [Video lecture worth watching](https://youtu.be/Nz1KZXbghj8)
+
+ - [ ] Radix sort
+
+ - [ ] Counting sort
+
+
+
 ## Strings
 
 #### Manacher's Algorithm
@@ -109,6 +121,14 @@
 
 ## DP
 
+<details>
+  <summary>Questions</summary>
+  
+   - [Longest common subsequence](https://www.interviewbit.com/problems/longest-common-subsequence/) & [Solution](https://github.com/gsunit/Competitive-Programming-Journey-for-Interviews/blob/master/dp/longest-common-subsequence.cpp)
+  
+</details>
+
+
 - [ ] 0-1 knapsack
 
 - [ ] [Traveling salesman](https://www.geeksforgeeks.org/travelling-salesman-problem-set-1/)
@@ -163,24 +183,21 @@
 - [ ] [Why is the order of the loops in Floyd-Warshall algorithm important to its correctness](https://www.quora.com/Why-is-the-order-of-the-loops-in-Floyd-Warshall-algorithm-important-to-its-correctness)
   
 - [ ] [Floyd-Warshall article](https://cp-algorithms.com/graph/all-pair-shortest-path-floyd-warshall.html)
-#### MST - Kruskal’s algo
-  
-<details>
-  <summary>Notes</summary>
 
-  - 
-  
-</details>
 
-- [ ] Disjoint Set DS
+#### Minimum Spanning Tree (MST)
 
-- [ ] Union Find Algo
+ - [ ] Kruskal’s algo
 
-- [ ] UF algo w/ path compression and union by rank
+ - [ ] Prim’s algo
+
+ - [ ] Disjoint set DS
+
+ - [ ] Union-Find algo
+
+ - [ ] UF algo w/ path compression and union by rank
 
 - [ ] Detect Cycle using UF algo
-
-#### MST - Prim’s algo
 
 #### Topological sort
 
@@ -350,6 +367,9 @@ in a graph](https://cp-algorithms.com/algebra/binary-exp.html#toc-tgt-7). Apprec
 
 
 ## Miscellaneous
+
+- [ ] [Huffman Coding](https://youtu.be/vt_Z6tdV81Q): Try to implement this on your own before looking at the code. It would require a mix of data structures to implement quick compression and decompression.
+
 - [ ] Majority element using BST
 
 - [ ] Majority element using Hashmap
