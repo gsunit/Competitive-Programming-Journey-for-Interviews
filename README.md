@@ -127,7 +127,11 @@
 | ☆   | Problem | Solution |
 |-----|---------|----------|
 | ★☆☆ | [Longest Common Subsequence](https://www.interviewbit.com/problems/longest-common-subsequence/) | [Link](https://github.com/gsunit/Competitive-Programming-Journey-for-Interviews/blob/master/dp/longest-common-subsequence.cpp) |
+| ★☆☆ | [Longest Increasing Subsequence //TODO: ]() | [Video](https://www.youtube.com/watch?v=fV-TF4OvZpk) |
 | ★★☆ | [Longest Palindromic Subsequence](https://www.interviewbit.com/problems/longest-palindromic-subsequence/) | [Link](https://github.com/gsunit/Competitive-Programming-Journey-for-Interviews/blob/master/dp/longest-palindromic-subsequence.cpp) |
+| ★★☆ | [Distinct Subsequences](https://www.interviewbit.com/problems/distinct-subsequences/) | [Video](https://www.youtube.com/watch?v=NR9lLQnFjWc) |
+  
+
   
 </details>
 
