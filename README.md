@@ -9,7 +9,7 @@
 
 #### Tortoise and Hare algo
 
-- [ ] [Floyd cycle detection algo proof](https://cs.stackexchange.com/a/90990/92327)
+- [ ] Floyd cycle detection algo proof [StackExchange](https://cs.stackexchange.com/a/90990), [Video](https://www.youtube.com/watch?v=9YTjXqqJEFE), [Code](https://github.com/gsunit/Competitive-Programming-Journey-for-Interviews/blob/master/linked-lists/floys-cycle-detection.cpp)
 
 - [ ] [Detect loop in a linked list](https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/)
 
