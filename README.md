@@ -5,7 +5,7 @@
 
 ## Common
 
-#### Moore’s voting algo
+- [ ] [Moore’s voting algo](https://www.geeksforgeeks.org/majority-element/) & [code](https://github.com/gsunit/Competitive-Programming-Journey-for-Interviews/blob/master/strings/moores-voting-algo.cpp)
 
 #### Tortoise and Hare algo
 
