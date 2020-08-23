@@ -11,9 +11,7 @@
 
 - [ ] Floyd cycle detection algo proof [StackExchange](https://cs.stackexchange.com/a/90990), [Video](https://www.youtube.com/watch?v=9YTjXqqJEFE), [Code](https://github.com/gsunit/Competitive-Programming-Journey-for-Interviews/blob/master/linked-lists/floys-cycle-detection.cpp)
 
-- [ ] [Detect loop in a linked list](https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/)
-
-#### Divide and Conquer
+- [ ] [Detect loop in a linked list](https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/), [Question](https://www.interviewbit.com/problems/list-cycle/)
 
 ## Sorting
 
@@ -60,9 +58,22 @@
 
 #### Pattern matching
 
+<details>
+  <summary>Notes</summary>
+  
+   - KMP
+     - First think about naive algo. Place pattern P below ith index in string A. Then perform O(|P|) search. Repeat for order O(|A|) times.
+
+     - Let i & j be traversing A and P respectively. Suppose in the first iteration, only the last letter of P does not match A, all before the last letter do match A. Then in the next iteration, i will have to be shifted back to i=1. This is the extra work.
+
+     - 
+  
+</details>
+
+
  - [ ] [Rabin-Karp](https://www.youtube.com/watch?v=qQ8vS2btsxI)
 
- - [ ] [Knuth-Morris-Pratt (KMP)](https://www.youtube.com/watch?v=V5-7GzOfADQ): One of the best video explanations I could find
+ - [ ] [Knuth-Morris-Pratt (KMP)](https://www.youtube.com/watch?v=V5-7GzOfADQ): One of the best video explanations I could find, [KMP code well commented](https://github.com/gsunit/Competitive-Programming-Journey-for-Interviews/blob/master/strings/knuth-morris-pratt.cpp)
 
 #### Z algorithm
 
