@@ -27,6 +27,7 @@
 
 ## Strings
 
+
 #### Manacher's Algorithm
 
 <details>
@@ -45,17 +46,6 @@
 
  - [ ] [Article](https://cp-algorithms.com/string/manacher.html): Contributed as a [PR](https://github.com/e-maxx-eng/e-maxx-eng/pull/598) in this article, what I would have written in my notes.
 
-#### 
-
-<details>
-  <summary>Notes</summary>
-  
-   - //TODO:
-  
-</details>
-
- - [ ] [Video explanation](): 
-
 #### Pattern matching
 
 <details>
@@ -66,14 +56,17 @@
 
      - Let i & j be traversing A and P respectively. Suppose in the first iteration, only the last letter of P does not match A, all before the last letter do match A. Then in the next iteration, i will have to be shifted back to i=1. This is the extra work.
 
-     - 
+     - // TODO: explain KMP
+
+   - Rabin Karp
+     - Pattern matching using rolling hash technique.
   
 </details>
 
 
  - [ ] [Rabin-Karp](https://www.youtube.com/watch?v=qQ8vS2btsxI)
 
- - [ ] [Knuth-Morris-Pratt (KMP)](https://www.youtube.com/watch?v=V5-7GzOfADQ): One of the best video explanations I could find, [KMP code well commented](https://github.com/gsunit/Competitive-Programming-Journey-for-Interviews/blob/master/strings/knuth-morris-pratt.cpp)
+ - [ ] [Knuth-Morris-Pratt (KMP)](https://www.youtube.com/watch?v=V5-7GzOfADQ): One of the best video explanations I could find. For computing [prefix function](https://www.youtube.com/watch?v=nJbNe0Yzjhw). [KMP code well commented](https://github.com/gsunit/Competitive-Programming-Journey-for-Interviews/blob/master/strings/knuth-morris-pratt.cpp)
 
 #### Z algorithm
 
@@ -115,6 +108,12 @@
 
 #### Fermat's little theorem
 
+#### Compute nCr
+
+- [ ] [nCr using Pascal's Triangle](https://www.geeksforgeeks.org/pascal-triangle/)
+
+
+
 
 ## Bit manipulation
 
@@ -125,6 +124,7 @@
 - [ ] XOR to find num occurring odd no. of times
 
 - [ ] [1's and 2's complement](https://www.geeksforgeeks.org/whats-difference-between-1s-complement-and-2s-complement/)
+
 
 ## Hash Table
 
@@ -137,10 +137,11 @@
   
 | ☆   | Problem | Solution |
 |-----|---------|----------|
-| ★☆☆ | [Longest Common Subsequence](https://www.interviewbit.com/problems/longest-common-subsequence/) | [Link](https://github.com/gsunit/Competitive-Programming-Journey-for-Interviews/blob/master/dp/longest-common-subsequence.cpp) |
+| ★☆☆ | [Longest Common Subsequence](https://www.interviewbit.com/problems/longest-common-subsequence/) | [Link](https://github.com/gsunit/Competitive-Programming-Journey-for-Interviews/blob/master/dp/longest-common-subsequence.cpp) [Video](https://www.youtube.com/watch?v=ASoaQq66foQ)|
 | ★☆☆ | [Longest Increasing Subsequence //TODO: ]() | [Video](https://www.youtube.com/watch?v=fV-TF4OvZpk) |
 | ★★☆ | [Longest Palindromic Subsequence](https://www.interviewbit.com/problems/longest-palindromic-subsequence/) | [Link](https://github.com/gsunit/Competitive-Programming-Journey-for-Interviews/blob/master/dp/longest-palindromic-subsequence.cpp) |
 | ★★☆ | [Distinct Subsequences](https://www.interviewbit.com/problems/distinct-subsequences/) | [Video](https://www.youtube.com/watch?v=NR9lLQnFjWc) |
+| ★☆☆ |  Longest Palindromic Substring | [Video](https://www.youtube.com/watch?v=y2BD4MJqV20) |
   
 
   
@@ -333,6 +334,9 @@ in a graph](https://cp-algorithms.com/algebra/binary-exp.html#toc-tgt-7). Apprec
 
 ## Trees
 
+#### Traversal
+ - [ ] Level Order Traversal - [Code](https://github.com/gsunit/Competitive-Programming-Journey-for-Interviews/blob/master/trees/level-order-traversal.cpp), [InterviewBit Question](https://www.interviewbit.com/problems/level-order/)
+
 #### Heaps
 
 <details> 
@@ -354,6 +358,10 @@ in a graph](https://cp-algorithms.com/algebra/binary-exp.html#toc-tgt-7). Apprec
 - [ ] [BST lecture](https://www.youtube.com/watch?v=9Jry5-82I68&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb&index=6&t=0s)
 
 - [ ] [BST lecture notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec05.pdf) (recommended after watching the lecture video)
+
+#### AVL Trees
+
+ - [ ] [Complete explanation video](https://www.youtube.com/watch?v=jDM6_TnYIqE)
 
 #### Segment trees
 
