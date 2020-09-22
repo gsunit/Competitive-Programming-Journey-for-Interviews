@@ -335,7 +335,15 @@ in a graph](https://cp-algorithms.com/algebra/binary-exp.html#toc-tgt-7). Apprec
 ## Trees
 
 #### Traversal
- - [ ] Level Order Traversal - [Code](https://github.com/gsunit/Competitive-Programming-Journey-for-Interviews/blob/master/trees/level-order-traversal.cpp), [InterviewBit Question](https://www.interviewbit.com/problems/level-order/)
+ - [ ] Preorder, Postorder, Inorder Traversal - [GFG Article](https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/)
+
+ - [ ] Iterative versions of traversals (certainly non-trivial, would be good exercise) [Preorder iterative](https://github.com/gsunit/Competitive-Programming-Journey-for-Interviews/blob/master/trees/pre-order-traversal.cpp), [Postorder iterative](https://github.com/gsunit/Competitive-Programming-Journey-for-Interviews/blob/master/trees/post-order-traversal.cpp), [Inorder iterative](https://github.com/gsunit/Competitive-Programming-Journey-for-Interviews/blob/master/trees/in-order-traversal.cpp) 
+
+ - [ ] Level Order Traversal - [Iterative & Recursive Code](https://github.com/gsunit/Competitive-Programming-Journey-for-Interviews/blob/master/trees/level-order-traversal.cpp), [InterviewBit Question](https://www.interviewbit.com/problems/level-order/)
+
+ #### Imp concepts
+- [ ] Recursive does something but returns something else
+  - [ ] [Check for balanced tree](https://practice.geeksforgeeks.org/problems/check-for-balanced-tree/1) [O(n) Solution](https://ide.geeksforgeeks.org/jn4Au03Bar), [Another O(n) solution worth thinking about](https://www.geeksforgeeks.org/how-to-determine-if-a-binary-tree-is-balanced/)
 
 #### Heaps
 
