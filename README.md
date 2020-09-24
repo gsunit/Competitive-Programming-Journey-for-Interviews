@@ -342,8 +342,18 @@ in a graph](https://cp-algorithms.com/algebra/binary-exp.html#toc-tgt-7). Apprec
  - [ ] Level Order Traversal - [Iterative & Recursive Code](https://github.com/gsunit/Competitive-Programming-Journey-for-Interviews/blob/master/trees/level-order-traversal.cpp), [InterviewBit Question](https://www.interviewbit.com/problems/level-order/)
 
  #### Imp concepts
-- [ ] Recursive does something but returns something else
-  - [ ] [Check for balanced tree](https://practice.geeksforgeeks.org/problems/check-for-balanced-tree/1) [O(n) Solution](https://ide.geeksforgeeks.org/jn4Au03Bar), [Another O(n) solution worth thinking about](https://www.geeksforgeeks.org/how-to-determine-if-a-binary-tree-is-balanced/)
+ 
+- [ ] Recursive function that maintains some variable but returns something else
+  - [ ] Check for balanced tree [Question](https://practice.geeksforgeeks.org/problems/check-for-balanced-tree/1), [O(n) Solution](https://ide.geeksforgeeks.org/jn4Au03Bar), [Another O(n) solution worth thinking about](https://www.geeksforgeeks.org/how-to-determine-if-a-binary-tree-is-balanced/)
+  - [ ] [Maximum path sum between 2 leaf nodes](https://practice.geeksforgeeks.org/problems/maximum-path-sum/1)
+  - [ ] [Diameter of binary tree](https://practice.geeksforgeeks.org/problems/diameter-of-binary-tree/1)
+
+ - [ ] [Serializing & deserializing a binary tree]() - 
+  Minimum requirements for successful encoding & decoding:
+   - BST - simply using preorder
+   - complete tree - level order
+   - full tree preorder with a bit with every node to store zero/two nodes
+   - general binary tree - both preorder and inorder required or preoder with NULL marker
 
 #### Heaps
 
