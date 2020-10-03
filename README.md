@@ -205,9 +205,13 @@
 
 #### Minimum Spanning Tree (MST)
 
- - [ ] Kruskal’s algo
+ - [ ] [Best video explanation on Kruskal's & Prim's](https://www.youtube.com/watch?v=4ZlRH0eK-qQ)
 
- - [ ] Prim’s algo
+ - [ ] [Best video explanation on Disjoint sets](https://www.youtube.com/watch?v=wU6udHRIkcc)
+
+ - [ ] Kruskal’s algo - [Code]() //TODO:
+
+ - [ ] Prim’s algo - [Code]() //TODO:
 
  - [ ] Disjoint set DS
 
