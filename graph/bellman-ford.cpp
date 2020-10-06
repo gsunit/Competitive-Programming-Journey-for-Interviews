@@ -17,7 +17,7 @@ void bellmanFord()
     vector<int> p (n - 1);
     int x;
 
-    for (int i=0; i<n; ++i) // n-1 iterations
+    for (int i=0; i<n; ++i) // n-1 iterations + nth iteration to check for -ve cycles
     {
         x = -1; // to store the last node that was relaxed
         for (int j=0; j<m; ++j)

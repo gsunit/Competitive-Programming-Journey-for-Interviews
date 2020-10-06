@@ -7,11 +7,38 @@
 
 - [ ] [Moore’s voting algo](https://www.geeksforgeeks.org/majority-element/) & [code](https://github.com/gsunit/Competitive-Programming-Journey-for-Interviews/blob/master/strings/moores-voting-algo.cpp)
 
+## Arrays
+
+
+<details>
+  <summary>Questions</summary>
+  
+| ☆   | Problem | Solution |
+|-----|---------|----------|
+| ★☆☆ | [Subarray with given sum](https://practice.geeksforgeeks.org/problems/subarray-with-given-sum/0) | (1) [Only non-negateive nos.](https://www.geeksforgeeks.org/find-subarray-with-given-sum/) (2) [-ve nos. allowed, using hashmap](https://www.geeksforgeeks.org/find-subarray-with-given-sum-in-array-of-integers/) (3) [-ve nos. allowed, constant space](https://www.geeksforgeeks.org/find-subarray-with-given-sum-with-negatives-allowed-in-constant-space/)|
+  
+</details>
+
+
 #### Tortoise and Hare algo
 
 - [ ] Floyd cycle detection algo proof [StackExchange](https://cs.stackexchange.com/a/90990), [Video](https://www.youtube.com/watch?v=9YTjXqqJEFE), [Code](https://github.com/gsunit/Competitive-Programming-Journey-for-Interviews/blob/master/linked-lists/floys-cycle-detection.cpp)
 
 - [ ] [Detect loop in a linked list](https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/), [Question](https://www.interviewbit.com/problems/list-cycle/)
+
+## Stacks & Queues
+
+
+<details>
+  <summary>Questions</summary>
+  
+| ☆   | Problem | Solution |
+|-----|---------|----------|
+| ★★★ | [Largest Rectangle in Histogram](https://www.interviewbit.com/problems/largest-rectangle-in-histogram/) | [Link](https://github.com/gsunit/Competitive-Programming-Journey-for-Interviews/blob/master/stack-and-queues/largest-rectangle-in-histogram.cpp) |
+| ★★★ | [Max Rectangle in Binary Matrix](https://www.interviewbit.com/problems/max-rectangle-in-binary-matrix/) | [Link](https://github.com/gsunit/Competitive-Programming-Journey-for-Interviews/blob/master/stacks-and-queues/max-rectangle-in-binary-matrix.cpp) |
+  
+</details>
+
 
 ## Sorting
 
@@ -126,9 +153,18 @@
 - [ ] [1's and 2's complement](https://www.geeksforgeeks.org/whats-difference-between-1s-complement-and-2s-complement/)
 
 
-## Hash Table
+## Hash Map
 
-- [ ] 
+
+<details>
+  <summary>Questions</summary>
+  
+| ☆   | Problem | Solution |
+|-----|---------|----------|
+| ★☆☆ | [Find subarray with given sum (with -ve numbers)](https://www.geeksforgeeks.org/find-subarray-with-given-sum-in-array-of-integers/) | [GFG solution](https://www.geeksforgeeks.org/find-subarray-with-given-sum-in-array-of-integers/) |
+  
+</details>
+
 
 ## DP
 
@@ -213,13 +249,11 @@
 
  - [ ] Prim’s algo - [Code]() //TODO:
 
- - [ ] Disjoint set DS
-
- - [ ] Union-Find algo
-
- - [ ] UF algo w/ path compression and union by rank
-
-- [ ] Detect Cycle using UF algo
+ - [ ] Disjoint set data structure or Union-Find Algo
+   - [ ] [Naive implementation](https://www.geeksforgeeks.org/union-find/)
+   - [ ] [With path compression & union by rank] [GFG Article](https://www.geeksforgeeks.org/union-find-algorithm-set-2-union-by-rank/), [CP-Algorithms Article](https://cp-algorithms.com/data_structures/disjoint_set_union.html), [Implementation Code](https://github.com/gsunit/Competitive-Programming-Journey-for-Interviews/blob/master/graph/disjoint-set-union-find.cpp)
+   - [ ] Detect Cycle using UF algo - Simple logic follows from above
+   - [ ] Question: [Job sequencing using Disjoing Set](https://www.geeksforgeeks.org/job-sequencing-using-disjoint-set-union/) //TODO:
 
 #### Topological sort
 
