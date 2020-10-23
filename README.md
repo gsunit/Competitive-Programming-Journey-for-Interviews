@@ -144,7 +144,7 @@
 
 ## Bit manipulation
 
-- [x] [Builtin functions of GCC compiler](https://www.geeksforgeeks.org/builtin-functions-gcc-compiler/)
+- [x] [Builtin functions of GCC compiler](https://www.geeksforgeeks.org/builtin-functions-gcc-compiler/) (__builtin_popcount(), __builtin_parity(), __builtin_clz(), __builtin_ctz())
 
 - [ ] (n & n-1) : Set first 1 from end to 0
 
